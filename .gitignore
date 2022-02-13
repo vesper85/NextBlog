@@ -1,5 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+ToRem.txt
+websiteTemplate.txt
+Reference_Img
+NextBlogNotebook
+
 # dependencies
 /node_modules
 /.pnp

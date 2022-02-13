@@ -1,16 +1,81 @@
+/* tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+--placeholder-color: #818181;
+--white: #fafafa;
+--black: 0,0,0;
+--purple: 98,43,255;
+--pink: #e60067;
+--bg-sec: #2a4555;
+--theme-page-background: #181818;
+--theme-page-background-secondary: var(--bg-sec);
+--theme-page-text-heading: rgb(var(--blue));
+--theme-page-text-normal: #f9fafa;
+--theme-page-text-normal-hover: rgba(249,250,250,0.8);
+--theme-page-text-light: #aaa;
+--theme-page-text-paragraph: #b0b0b0;
+--theme-h1: #ff0a78;
+--theme-link: #ff95ca;
+--theme-btn: #373737;
+--theme-input-background: #121212;
+--theme-input-border-color: #303030;
+--theme-input-border-focus-color: var(--bg-sec);
+--theme-hr-color: var(--bg-sec);
+--theme-main-btn-hover: rgba(var(--blue),0.871);
+--theme-blockquote-bg: #212121;
+--theme-nav-link: var(--theme-page-text-paragraph);
+--theme-nav-link-hover: var(--white);
+--theme-code-copy-btn: var(--theme-page-text-normal);
+--syntax-highlighter-border-color: #2a4555;
+--syntax-highlighter-code-selection-color: #1d3b54;
+--syntax-highlighter-remark-code-title-bg: #101b2b;
+--syntax-highlighter-remark-code-title-fg: #fff;
+--syntax-highlighter-code-fg: #d6e7ff;
+--syntax-highlighter-code-bg: #030314;
+--syntax-highlighter-scrollbar-color-1: var( --syntax-highlighter-remark-code-title-bg );
+--syntax-highlighter-scrollbar-color-2: var(--syntax-highlighter-code-bg);
+--syntax-highlighter-scrollbar-webkit: var(--syntax-highlighter-code-bg);
+--syntax-highlighter-scrollbar-thumb: var( --syntax-highlighter-remark-code-title-bg );
+--syntax-highlighter-code-inline-bg: #373737;
+--syntax-highlighter-code-inline-fg: #f0f6fc;
+--syntax-highlighter-token-comment: #446e69;
+--syntax-highlighter-token-punctuation: #d6b007;
+--syntax-highlighter-token-property: #d6e7ff;
+--syntax-highlighter-token-selector: #e60067;
+--syntax-highlighter-token-string: #49c6ec;
+--syntax-highlighter-token-operator: #ec8e01;
+--syntax-highlighter-token-atrule: #0fe468;
+--syntax-highlighter-token-function: #78f3e9;
+--syntax-highlighter-token-regex: #d6e7ff;
+
+}
+
+
 html,
 body {
+  background-color: #181818;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+ font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 a {
   color: inherit;
   text-decoration: none;
 }
-
-* {
-  box-sizing: border-box;
+div{
+  display: block;
 }
+
+
+
+.custom_font_family{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
