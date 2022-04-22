@@ -4,6 +4,16 @@
 @tailwind utilities;
 
 
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  /* ... */
+}
+
 :root{
 --placeholder-color: #818181;
 --white: #fafafa;

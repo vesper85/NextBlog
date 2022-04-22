@@ -10,6 +10,7 @@ export default function Home() {
       <div className={styles.inside_wrapper}>
         <IntroModule/>
         <Loader false/>
+        
       </div>
     </main>
   )
