@@ -1,0 +1,29 @@
+.wrapper {
+  color: white;
+  width: 45rem;
+  display: block;
+  margin: 0px auto;
+}
+
+/*.innerWrapper {
+}*/
+.heading_wrapper {
+  margin: 2rem 0;
+  font-size: 3rem;
+}
+.heading_wrapper h1 {
+  font-size: 3rem;
+}
+
+.blog_info {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0rem;
+  color: grey;
+}
+
+.blog_content {
+  color: white;
+  line-height: 2rem;
+  margin-bottom: 5rem;
+}

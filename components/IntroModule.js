@@ -15,7 +15,7 @@ export default function IntroModule(){
         {/* about me!! */}
         <div>
             <p>
-                I&apos;m a Web Developer based in Jaipur, Rajasthan. I&apos;ve a deep passion for development, design, and engineering.
+                I&apos;m a Web Developer based in pune, Maharashtra. I&apos;ve a deep passion for developmentand engineering.
             </p>
 
             <p>
