@@ -2,7 +2,7 @@ import homeStyles from '../styles/Home.module.css'
 function Footer() {
   return (
    <div className={homeStyles.footer_wrapper}>
-     <hr />
+     {/*<hr />*/}
         <footer className="text-center text-white" >
           <div className="container pt-9">
             <div className="flex justify-center items-center mb-9">
@@ -112,7 +112,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="text-center text-white p-4" >
+          <div className="container text-center text-white p-4" >
             © 2021 Copyright
             <a className="text-white" href="https://tailwind-elements.com/"></a>
           </div>
