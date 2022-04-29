@@ -3,21 +3,22 @@ import getFileData from '../../lib/getFileData';
 import matter from 'gray-matter';
 import getPaths from '../../lib/getPaths';
 import { MDXRemote } from 'next-mdx-remote';
-import blogStyles from '../../styles/BlogPage.module.css'
+import blogStyles from '../../styles/slug.module.css'
 
-import Codeblock from '../../components/Codeblock';
-import "highlight.js/styles/mono-blue.css";
+import "highlight.js/styles/a11y-dark.css";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeHighlight from "rehype-highlight";
-import Image from 'next/image';
-import Blog_h1 from '../../components/blog_h1';
+
+import allUtils from '../../components/allUtils';
+
+
 
 
 export default function TestPage(props) {
   const {mdxSource, matter} = props
 
- const components = {Codeblock, Image, Blog_h1}
+ const components = allUtils;
   return (
     <div className={blogStyles.wrapper}>
       <div className={blogStyles.innerWrapper}>

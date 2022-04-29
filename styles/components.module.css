@@ -6,3 +6,13 @@
   margin-bottom: 10px;
   color: blue;
 }
+
+.heading {
+  color: hsl(53deg, 100%, 50%);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.paragraph {
+  margin: 2rem 0px;
+}

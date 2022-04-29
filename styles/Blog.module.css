@@ -15,13 +15,13 @@
   @apply m-4;
 }
 .BlogHeader p {
-  @apply text-theme-page-text-paragraph;
+  @apply text-white;
 }
 .header_title {
   @apply text-[3rem] font-semibold;
 }
 .header_title span {
-  @apply text-theme-page-text-heading;
+  @apply text-white;
 }
 
 /* SEARCH IN BLOG SECTION */
@@ -35,5 +35,5 @@
   @apply ml-5 flex-[5_1_0%]  text-[1.2rem];
 }
 .timestamp {
-  @apply flex-1 text-theme-page-text-paragraph;
+  @apply flex-1 text-white;
 }
