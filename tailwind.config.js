@@ -3,6 +3,7 @@ module.exports = {
     './pages/**/*.{html,js}',
     './components/**/*.{html,js}',
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors:{

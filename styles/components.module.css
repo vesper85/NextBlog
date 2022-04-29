@@ -16,3 +16,55 @@
 .paragraph {
   margin: 2rem 0px;
 }
+
+/* dark mode toggle switch_dark */
+.switch_dark {
+  /* --moon-mask: ; */
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 2.5em;
+  height: 1em;
+}
+
+/* Hide default HTML checkbox */
+.switch_dark input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider_dark */
+.slider_dark {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f4f4f5;
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+.slider_dark:before {
+  position: absolute;
+  content: '';
+  height: 1em;
+  width: 1em;
+  border-radius: 20px;
+  /*left: 0.3em;
+  bottom: 0.1em;*/
+  background: linear-gradient(40deg, #ff0080, #ff8c00 70%);
+  transition: 0.4s;
+}
+
+input:checked + .slider_dark {
+  background-color: #303136;
+}
+
+input:checked + .slider_dark:before {
+  transform: translateX(1.5em);
+  background: #303136;
+  box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -5px 0 0 #a3dafb;
+}

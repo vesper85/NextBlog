@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Navbar/>
-      <main className="px-8">
+      <main className="px-8 ">
         <Component {...pageProps} />
       </main>
       <Footer/>

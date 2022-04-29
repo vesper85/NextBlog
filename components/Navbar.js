@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from '../styles/Home.module.css'
+import DarkModeSwitch from "./DarkModeSwitch";
 
 
 export default function Navbar(){
@@ -11,6 +12,7 @@ export default function Navbar(){
                     <Link href='/blog'><a className={styles.nav_link}> Blog</a></Link>
 
             </div>
+            <DarkModeSwitch/>
         </nav>
     );
 }
