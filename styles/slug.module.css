@@ -5,6 +5,10 @@
   margin: 0px auto;
 }
 
+:global(.light) .wrapper {
+  @apply text-black;
+}
+
 /*.innerWrapper {
 }*/
 .heading_wrapper {
@@ -23,7 +27,8 @@
 }
 
 .blog_content {
-  color: white;
+  /*color: white;*/
   /*line-height: 1rem;*/
-  margin-bottom: 5rem;
+  /*margin-bottom: 5rem;*/
+  @apply mb-20 dark:text-white;
 }

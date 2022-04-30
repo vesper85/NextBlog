@@ -17,6 +17,7 @@ function SearchBlog() {
             transition
             ease-in-out
             m-0
+            bg-white
             focus:text-gray-700 focus:bg-white focus:border-theme-page-text-heading focus:outline-none
             search:hidden
           "

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { useEffect } from 'react'
 import IntroModule from '../components/IntroModule'
 import Loader from '../components/Loader'
 import RecentPosts from '../components/RecentPosts'
@@ -9,6 +10,9 @@ import styles from '../styles/Home.module.css'
 export default function Home(props) {
   const {blogsFrontMatter} = props;
   //console.log(blogsFrontMatter);
+  
+  
+  
   return (
     <main className={styles.outside_wrapper}>
       <div className={styles.inside_wrapper}>

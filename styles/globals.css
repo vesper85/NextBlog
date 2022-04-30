@@ -49,10 +49,11 @@
   --syntax-regex: #ffd700;
   --syntax-fn: rgb(0, 190, 255);
   --prefers-dark: true;
+  --color-subtle-background-2: hsl(225deg, 25%, 95%);
 }
 
 body {
-  @apply bg-color-background p-0 m-0 h-full;
+  @apply bg-color-homepage-light text-black dark:bg-color-background-dark dark:text-white p-0 m-0 h-full;
 }
 
 a {

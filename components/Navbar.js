@@ -5,6 +5,7 @@ import DarkModeSwitch from "./DarkModeSwitch";
 
 export default function Navbar(){
     return(
+    
         <nav className={styles.navbar} >
             <div className="grow min-w-[12rem] z-50">
                     {/* no space allowed between 'link' and 'a' tag */}
@@ -14,5 +15,6 @@ export default function Navbar(){
             </div>
             <DarkModeSwitch/>
         </nav>
+
     );
 }

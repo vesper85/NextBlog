@@ -8,13 +8,17 @@
 }
 
 .heading {
-  color: hsl(53deg, 100%, 50%);
+  color: var(--color-primary);
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
+}
+:global(.dark) .heading {
+  color: hsl(53deg, 100%, 50%);
 }
 
 .paragraph {
   margin: 2rem 0px;
+  font-size: 1.1875rem;
 }
 
 /* dark mode toggle switch_dark */

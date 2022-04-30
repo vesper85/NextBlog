@@ -5,12 +5,13 @@ import getPaths from '../../lib/getPaths';
 import { MDXRemote } from 'next-mdx-remote';
 import blogStyles from '../../styles/slug.module.css'
 
-import "highlight.js/styles/a11y-dark.css";
+import "highlight.js/styles/base16/dracula.css";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeHighlight from "rehype-highlight";
 
 import allUtils from '../../components/allUtils';
+import { useTheme } from 'next-themes';
 
 
 

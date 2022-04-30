@@ -3,10 +3,10 @@ function Footer() {
   return (
    <div className={homeStyles.footer_wrapper}>
      {/*<hr />*/}
-        <footer className="text-center text-white" >
+        <footer className="text-center text-black dark:text-white" >
           <div className="container pt-9">
             <div className="flex justify-center items-center mb-9">
-              <a href="#!" className="mr-9 text-white">
+              <a href="#!" className="mr-9 text-black dark:text-white">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -24,7 +24,7 @@ function Footer() {
                   ></path>
                 </svg>
               </a>
-              <a href="#!" className="mr-9 text-white ">
+              <a href="#!" className="mr-9 text-black dark:text-white ">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -41,7 +41,7 @@ function Footer() {
                   ></path>
                 </svg>
               </a>
-              <a href="#!" className="mr-9 text-white">
+              <a href="#!" className="mr-9 text-black dark:text-white">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -58,7 +58,7 @@ function Footer() {
                   ></path>
                 </svg>
               </a>
-              <a href="#!" className="mr-9 text-white">
+              <a href="#!" className="mr-9 text-black dark:text-white">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -75,7 +75,7 @@ function Footer() {
                   ></path>
                 </svg>
               </a>
-              <a href="#!" className="mr-9 text-white">
+              <a href="#!" className="mr-9 text-black dark:text-white">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -92,7 +92,7 @@ function Footer() {
                   ></path>
                 </svg>
               </a>
-              <a href="#!" className="text-white">
+              <a href="#!" className="text-black dark:text-white">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -112,9 +112,9 @@ function Footer() {
             </div>
           </div>
 
-          <div className="container text-center text-white p-4" >
+          <div className="container text-center text-black dark:text-white p-4" >
             © 2021 Copyright
-            <a className="text-white" href="https://tailwind-elements.com/"></a>
+            <a className="text-black dark:text-white" href="https://tailwind-elements.com/"></a>
           </div>
         </footer>
    </div>
