@@ -42,7 +42,7 @@ const RecentPosts = (props) => {
                                 </div>
                                 <a className="inline-flex items-center">
                                 
-                                <span className="flex-grow flex flex-col pl-4">
+                                <span className="flex-grow flex flex-col">
                                     <span className="title-font font-medium text-black dark:text-white"> {author} </span>
                                     
                                 </span>

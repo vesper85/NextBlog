@@ -9,11 +9,11 @@ import getBlogs from '../../lib/getBlogs'
 export default function blog(props){
     //console.log(props.blogs);
     return(
-        <main className='h-screen flex flex-col items-center px-[2em] dark:text-white'>
+        <main className='h-screen flex flex-col items-center sm:px-4 md:px-[2rem] dark:text-white'>
            <div className={blogStyles.inside_wrapper}>
                <BlogHeader/>
                <SearchBlog/>
-               <p className="text-[2rem] m-5 leading-6 mt-10 text-theme-page-text-heading mb-10">All Posts</p>
+               <p className=" text-2xl md:text-[2rem] m-5 leading-6 mt-10 text-theme-page-text-heading mb-10">All Posts</p>
                {
                    props.blogs.map((post)=>{
                        return (
@@ -21,7 +21,6 @@ export default function blog(props){
                        )
                    })
                }{' '}
-               <h1></h1>
                
            </div>
         </main>

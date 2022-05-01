@@ -112,7 +112,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="container text-center text-black dark:text-white p-4" >
+          <div className="container text-center text-black dark:text-white p-2 sm:p-4" >
             © 2021 Copyright
             <a className="text-black dark:text-white" href="https://tailwind-elements.com/"></a>
           </div>

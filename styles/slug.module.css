@@ -1,8 +1,5 @@
 .wrapper {
-  color: white;
-  width: 45rem;
-  display: block;
-  margin: 0px auto;
+  @apply text-white md:w-[45rem] block my-0 mx-auto;
 }
 
 :global(.light) .wrapper {
@@ -12,6 +9,7 @@
 /*.innerWrapper {
 }*/
 .heading_wrapper {
+  /*@apply mdtext-5xl;*/
   margin: 2rem 0;
   font-size: 3rem;
 }

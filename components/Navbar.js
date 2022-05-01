@@ -2,7 +2,7 @@ import Link from "next/link";
 import styles from '../styles/Home.module.css'
 import DarkModeSwitch from "./DarkModeSwitch";
 
-
+ 
 export default function Navbar(){
     return(
     
