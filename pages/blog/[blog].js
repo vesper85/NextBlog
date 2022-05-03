@@ -12,12 +12,14 @@ import rehypeHighlight from "rehype-highlight";
 
 import allUtils from '../../components/allUtils';
 import { useTheme } from 'next-themes';
+import ViewCount from '../../components/ViewCount';
 
 
 
 
 export default function TestPage(props) {
   const {mdxSource, matter} = props
+  //console.log(props);
 
  const components = allUtils;
   return (
@@ -35,7 +37,7 @@ export default function TestPage(props) {
               </div>
 
               <div className={blogStyles.other_info}>
-                6 min to read
+                <ViewCount slug={matter.slug} isblog={true} />
               </div>
           </div>
           <div className={blogStyles.blog_content}>
