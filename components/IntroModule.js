@@ -25,7 +25,7 @@ export default function IntroModule(){
                 <Link href='/aboutme'><a>Learn more about me!!</a></Link>
             </div>
             <div className={styles.ImageContainer}>
-                <Image src="/images/intro-module-illu.svg" width="100px" height="50px" layout='responsive' alt='an illustration' />
+                <Image src="/images/intro-module-illu.svg" width="100px" height="50px" layout='responsive' alt='an illustration' priority/>
             </div>
         </div>
        

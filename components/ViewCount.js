@@ -42,8 +42,6 @@ const ViewCount = (props) => {
       {
         incrementViews();
       }
-      
-      
     }, [])
     
 

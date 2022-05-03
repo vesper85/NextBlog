@@ -13,6 +13,17 @@ import rehypeHighlight from "rehype-highlight";
 import allUtils from '../../components/allUtils';
 import { useTheme } from 'next-themes';
 import ViewCount from '../../components/ViewCount';
+//import CommentBox from '../../components/CommentBox';
+
+import dynamic from 'next/dynamic';
+import { Suspense } from 'react';
+
+const CommentBox = dynamic(
+  ()=>import('../../components/CommentBox'),{
+    loading:()=>(<p>......</p>)
+  }
+
+)
 
 
 
@@ -21,9 +32,11 @@ export default function TestPage(props) {
   const {mdxSource, matter} = props
   //console.log(props);
 
+
  const components = allUtils;
   return (
     <div className={blogStyles.wrapper}>
+
       <div className={blogStyles.innerWrapper}>
 
           <div className={blogStyles.heading_wrapper}>
@@ -41,9 +54,10 @@ export default function TestPage(props) {
               </div>
           </div>
           <div className={blogStyles.blog_content}>
-            <MDXRemote {...mdxSource} components={components} />
-            
+            <MDXRemote {...mdxSource} components={components} />  
           </div>
+         
+          <CommentBox/>
       </div>
     </div>
   )
@@ -78,3 +92,4 @@ export const getStaticPaths =  () => {
       fallback: false
     };
   };
+

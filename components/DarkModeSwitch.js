@@ -11,7 +11,6 @@ const DarkModeSwitch = () => {
   let button  = useRef();
   const {theme , setTheme}  = useTheme();
   
-
   useEffect(() => {
     if(theme === 'dark')
     {
@@ -21,7 +20,7 @@ const DarkModeSwitch = () => {
   
   const handleDarkMode = () => {
     //console.log(button.current.checked)
-    console.log(theme);
+    //console.log(theme);
     if (button.current.checked) {
       //dark mode is on
       setTheme('dark');
