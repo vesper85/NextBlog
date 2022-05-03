@@ -5,6 +5,10 @@ import useSWR from 'swr';
 const ViewCount = (props) => {
 
     const {slug, isblog} = props;
+    //const [views, setviews] = useState({
+    //  data:-1,
+    //  error:null
+    //})
 
     //fetcher function
     const fetcher = async(...args)=>{
@@ -18,7 +22,9 @@ const ViewCount = (props) => {
       }
       return response.json();
     }
-    const {data, error} = useSWR(`/api/blogs/${slug}`, fetcher);
+  
+    const {data, error} = useSWR(`/api/blogs/${slug}`, fetcher, { refreshInterval: 1000 });
+  
 
     //  function to increment the view count
     async function incrementViews ()
@@ -36,6 +42,7 @@ const ViewCount = (props) => {
       {
         incrementViews();
       }
+      
       
     }, [])
     
