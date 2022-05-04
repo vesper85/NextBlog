@@ -1,11 +1,17 @@
+import {useState} from 'react'
 
-function SearchBlog() {
+
+function SearchBlog(props) {
+  const {searchedString, setsearchedString} = props;
+  const handleSearchOnChange = (e)=>{
+    //console.log(e.target.value);
+    setsearchedString(e.target.value)
+  }
   return (
     <div className="mt-10">
       <div className="m-4">
       <div className="mb-3 w-100">
         <input
-          
           className="
             w-full
             px-3
@@ -23,6 +29,7 @@ function SearchBlog() {
           "
           id="exampleSearch"
           placeholder="Search Blog"
+          onChange={handleSearchOnChange}
         />
       </div>
     </div>

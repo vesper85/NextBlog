@@ -13,7 +13,7 @@ const CommentBox = () => {
         scriptEl.setAttribute("src", "https://utteranc.es/client.js");
         scriptEl.setAttribute("crossorigin","anonymous");
         scriptEl.setAttribute("async", true);
-        scriptEl.setAttribute("repo", "vincentntang/vincentntang.com-comments");
+        scriptEl.setAttribute("repo", "vesper85/Blog_comments");
         scriptEl.setAttribute("issue-term", "pathname");
         scriptEl.setAttribute('theme',utteranceTheme)
         //console.log(scriptEl);
