@@ -2,15 +2,14 @@ import {useState} from 'react'
 
 
 function SearchBlog(props) {
-  const {searchedString, setsearchedString} = props;
+  const {searchedString, setsearchedString, count} = props;
   const handleSearchOnChange = (e)=>{
-    //console.log(e.target.value);
     setsearchedString(e.target.value)
   }
   return (
     <div className="mt-10">
       <div className="m-4">
-      <div className="mb-3 w-100">
+      <div className="mb-3 w-100 relative">
         <input
           className="
             w-full
@@ -30,7 +29,9 @@ function SearchBlog(props) {
           id="exampleSearch"
           placeholder="Search Blog"
           onChange={handleSearchOnChange}
+  
         />
+        <span className="absolute right-3 top-[0.35rem] font-semibold text-color-gray-300">{count} </span>
       </div>
     </div>
     </div>

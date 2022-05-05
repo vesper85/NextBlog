@@ -16,7 +16,6 @@ const CommentBox = () => {
         scriptEl.setAttribute("repo", "vesper85/Blog_comments");
         scriptEl.setAttribute("issue-term", "pathname");
         scriptEl.setAttribute('theme',utteranceTheme)
-        //console.log(scriptEl);
         commentB.current.replaceChildren(scriptEl);
         //commentB.current.appendChild(scriptEl)
     }, [theme])

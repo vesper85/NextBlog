@@ -7,7 +7,7 @@
   --color-text: hsl(0deg, 0%, 100%);
   --color-background: hsl(210deg, 30%, 8%);
   --color-blurred-background: hsla(210deg, 30%, 8%, 0.85);
-  --color-primary: hsl(230deg, 100%, 67%);
+  --color-primary: rgb(87, 115, 255);
   --color-secondary: hsl(333deg, 100%, 52%);
   --color-tertiary: hsl(53deg, 100%, 50%);
   --color-decorative: hsl(200deg, 50%, 60%);

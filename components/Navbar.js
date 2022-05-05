@@ -11,6 +11,7 @@ export default function Navbar(){
                     {/* no space allowed between 'link' and 'a' tag */}
                     <Link href="/"><a className={styles.nav_link}>Home</a></Link>
                     <Link href='/blog'><a className={styles.nav_link}> Blog</a></Link>
+                    <Link href='/aboutme'><a className={styles.nav_link}> Me</a></Link>
 
             </div>
             <DarkModeSwitch/>

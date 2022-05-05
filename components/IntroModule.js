@@ -9,7 +9,7 @@ export default function IntroModule(){
                 {/* home page main title */}
                 <div className={styles.main_title}>Hey  <span className={styles.waving_hand}>👋</span>, I&apos;m 
                 <p className="text-color-primary">Parikshit D.
-                </p>
+                </p> 
                 </div>
         
                 {/* about me!! */}
