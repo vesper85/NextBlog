@@ -1,8 +1,8 @@
 import styles from '../../styles/components.module.css'
 
-const Blog_h1 = (props) => {
+const Blog_h1 = ({children}) => {
   return (
-    <div className={styles.heading}>{props.text} </div>
+    <div className={styles.heading}>{children} </div>
   )
 }
 

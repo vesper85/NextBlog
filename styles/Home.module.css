@@ -58,7 +58,7 @@
 }
 
 .nav_link {
-  @apply mx-5 sm:text-[1.1rem] md:text-[1.2rem];
+  @apply mr-5 sm:mx-5 sm:text-[1.1rem] md:text-[1.2rem];
 }
 
 :golbal(.light) .nav_link {

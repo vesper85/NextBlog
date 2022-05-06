@@ -7,7 +7,7 @@
   --color-text: hsl(0deg, 0%, 100%);
   --color-background: hsl(210deg, 30%, 8%);
   --color-blurred-background: hsla(210deg, 30%, 8%, 0.85);
-  --color-primary: rgb(87, 115, 255);
+  --color-primary: #5773ff;
   --color-secondary: hsl(333deg, 100%, 52%);
   --color-tertiary: hsl(53deg, 100%, 50%);
   --color-decorative: hsl(200deg, 50%, 60%);
@@ -52,8 +52,14 @@
   --color-subtle-background-2: hsl(225deg, 25%, 95%);
 }
 
+/*@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 body {
   @apply bg-color-homepage-light text-black dark:bg-color-background-dark dark:text-white p-0 m-0 h-full;
+}
+html {
+  /*font-family: 'Karla', sans-serif;*/
+  font-family: 'Inter', sans-serif;
 }
 
 a {
