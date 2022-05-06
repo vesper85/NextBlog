@@ -12,7 +12,7 @@ export default function aboutme(){
                 <div className="text-center sm:text-left text-[3rem]  lg:text-[10rem] dark:text-color-tertiary text-color-primary stroke ">ME !!</div>
                 I&apos;m  <Highlight>Parikshit Deshmukh</Highlight>, a full stack JavaScript developer.
                 Currently a student at VIT pune, pursuing my Bachelors in Computer Science.
-                Self-taught coder who is constantly seeking new challenges from which to learn.
+                A Self-taught coder who is constantly seeking new challenges from which to learn.
                 As a self-taught coder, I enjoy learning new things and am constantly striving to better my abilities.
              </div>
              
