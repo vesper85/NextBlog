@@ -10,11 +10,10 @@ export default function aboutme(){
             {/* flex-1 grow */}
             <div className="flex-1 grow self-center mt-10 text-[1.05rem] sm:mt-0">
                 <div className="text-center sm:text-left text-[3rem]  lg:text-[10rem] dark:text-color-tertiary text-color-primary stroke ">ME !!</div>
-                I&apos;m  <Highlight>Parikshit Deshmukh</Highlight>, a full stack JavaScript developer from  Pune, Maharashtra. 
-                I am currently a student at VIT pune, pursuing my Bachelors in Computer Science.
-                I am a self-taught programmer, always looking for new challenges to learn from.
-                I love to learn new things and I am always trying to improve my skills.
-
+                I&apos;m  <Highlight>Parikshit Deshmukh</Highlight>, a full stack JavaScript developer.
+                Currently a student at VIT pune, pursuing my Bachelors in Computer Science.
+                Self-taught coder who is constantly seeking new challenges from which to learn.
+                As a self-taught coder, I enjoy learning new things and am constantly striving to better my abilities.
              </div>
              
              {/* flex-1 */}
@@ -24,9 +23,7 @@ export default function aboutme(){
             </div>
         </div>
         <div className="my-12 w-full md:w-4/5 text-[1.05rem]">
-            I love creating things that make people&apos;s life easier. I got
-            my start for web development in 2020.<br/> I have been learning and
-            growing my skills everyday.  webdevelopment is my passion and I will keep on learning and growing.
+        I like designing products that make people&apos;s lives simpler. In the year 2020, I began my web development career. Every day, I&apos;ve been learning and honing my talents. My love is web development, and I will continue to study and progress in this field.
         </div>
         <div className="my-12 w-full md:w-4/5">
             <div>

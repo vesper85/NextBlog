@@ -9,8 +9,8 @@ function BlogHeader() {
         </div>
         <div>
             <p className="text-[1.05rem] leading-5">
-              WebDevelopment is my passion. I have been working on it for the last few years.
-              Here are all my lastest posts. I will be adding more posts soon. I hope you like them.
+            My interest is web development. I&apos;ve been working on it for several years now.
+            Here are all of my most recent entries. More posts will be added shortly. I really hope you enjoy these.
             </p>
         </div>
     </section>
