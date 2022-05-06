@@ -5,7 +5,7 @@ import Highlight from "../components/blog-utils/Highlight";
 
 export default function aboutme(){
   return (
-    <main className="h-screen flex flex-col items-center sm:px-4 md:px-[2rem] dark:text-white mt-10 sm:mt-20">
+    <main className="h-screen flex flex-col items-center sm:px-4 md:px-[2rem] dark:text-white mt-10 sm:mt-20 mb-20 ">
         <div className="flex flex-col-reverse sm:flex-row justify-between md:w-4/5 text-[1rem] ">
             {/* flex-1 grow */}
             <div className="flex-1 grow self-center mt-10 text-[1.05rem] sm:mt-0">
