@@ -17,6 +17,7 @@ import ViewCount from '../../components/ViewCount';
 
 import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
+import readingTime from 'reading-time';
 
 const CommentBox = dynamic(
   ()=>import('../../components/CommentBox'),{
@@ -31,7 +32,7 @@ const CommentBox = dynamic(
 export default function TestPage(props) {
   const {mdxSource, matter} = props
   //console.log(props);
-
+ const stats = readingTime(mdxSource);
 
  const components = allUtils;
   return (
@@ -51,6 +52,7 @@ export default function TestPage(props) {
 
               <div className={blogStyles.other_info}>
                 <ViewCount slug={matter.slug} isblog={true} />
+                {stats.text === '0 min read' ? '. 1 min read' : <span>{stats.text}</span>}
               </div>
           </div>
           <div className={blogStyles.blog_content}>

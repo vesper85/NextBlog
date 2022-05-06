@@ -45,9 +45,9 @@ const ViewCount = (props) => {
     }, [])
     
 
-  if(error) return<div>error</div>
-  if(!data) return <div>...loading</div>
-  return <div> {data} views </div>;
+  if(error) return<span>error</span>
+  if(!data) return <span>...loading</span>
+  return <span> {data} views </span>;
 
 }
 
