@@ -9,8 +9,9 @@ function BlogHeader() {
         </div>
         <div>
             <p className="text-[1.05rem] leading-5">
-            My interest is web development. I&apos;ve been working on it for several years now.
-            Here are all of my most recent entries. More posts will be added shortly. I really hope you enjoy these.
+            I am a Web Developer in Pune, Maharashtra. I have a strong interest in development and engineering.
+          I enjoy coding products, creating, writing, and reading.
+          Find out more about me!!
             </p>
         </div>
     </section>
