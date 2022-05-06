@@ -29,11 +29,11 @@ const ViewCount = (props) => {
     //  function to increment the view count
     async function incrementViews ()
     {
-        console.log('views incremented');
+        //console.log('views incremented');
         const incrementView = await fetch(`/api/blogs/${slug}`,{
             method:'POST'
         })
-        console.log(incrementView);
+        //console.log(incrementView);
 
     }
 

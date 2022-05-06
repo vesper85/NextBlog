@@ -38,7 +38,7 @@ export default async function handler (req, res){
 
         } else {
             // doc.data() will be undefined in this case
-            console.log("No such document!");
+            //console.log("No such document!");
             let sample  = await setDoc(doc(blogViews, `${slug}`),{
                 viewCount:1
                 });
