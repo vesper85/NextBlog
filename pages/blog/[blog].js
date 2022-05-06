@@ -41,7 +41,7 @@ export default function TestPage(props) {
       <div className={blogStyles.innerWrapper}>
 
           <div className={blogStyles.heading_wrapper}>
-            <h1 className="uppercase">heading goes here</h1>
+            <h1 className="uppercase"> {matter.title} </h1>
           </div>
 
           <div className={blogStyles.blog_info}>
