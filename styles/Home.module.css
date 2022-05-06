@@ -113,7 +113,6 @@
 .footer_wrapper a {
   @apply hover:text-white ease-in duration-200;
 }
-
 .test {
-  border-radius: 1000rem;
+  @apply -translate-x-5 sm:translate-x-0;
 }
