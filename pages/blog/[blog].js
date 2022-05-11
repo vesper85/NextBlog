@@ -11,13 +11,11 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeHighlight from "rehype-highlight";
 
 import allUtils from '../../components/allUtils';
-import { useTheme } from 'next-themes';
 import ViewCount from '../../components/ViewCount';
-//import CommentBox from '../../components/CommentBox';
 
 import dynamic from 'next/dynamic';
-import { Suspense } from 'react';
 import readingTime from 'reading-time';
+import Head from 'next/head'
 
 const CommentBox = dynamic(
   ()=>import('../../components/CommentBox'),{
@@ -37,7 +35,11 @@ export default function TestPage(props) {
  const components = allUtils;
   return (
     <div className={blogStyles.wrapper}>
-
+      <Head>
+        <title>
+          {matter.title}
+        </title>
+      </Head>
       <div className={blogStyles.innerWrapper}>
 
           <div className={blogStyles.heading_wrapper}>

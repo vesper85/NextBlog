@@ -2,10 +2,14 @@ import Image from "next/image";
 import profileImg from '../public/1.png'
 import styles from '../styles/Home.module.css'
 import Highlight from "../components/blog-utils/Highlight";
+import Head from "next/head";
 
 export default function aboutme(){
   return (
     <main className="h-screen flex flex-col items-center sm:px-4 md:px-[2rem] dark:text-white mt-10 sm:mt-20 mb-20 ">
+        <Head>
+            <title>About - PD</title>
+        </Head>
         <div className="flex flex-col-reverse sm:flex-row justify-between md:w-4/5 text-[1rem] ">
             {/* flex-1 grow */}
             <div className="flex-1 grow self-center mt-10 text-[1.05rem] sm:mt-0">

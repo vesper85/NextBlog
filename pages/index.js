@@ -6,6 +6,7 @@ import Loader from '../components/Loader'
 import RecentPosts from '../components/RecentPosts'
 import getBlogs from '../lib/getBlogs'
 import styles from '../styles/Home.module.css'
+//import Head from 'next/head'
 
 export default function Home(props) {
   const {blogsFrontMatter} = props;
@@ -15,6 +16,12 @@ export default function Home(props) {
   
   return (
     <main className={styles.outside_wrapper}>
+      <Head>
+        <title>
+          Parikshit Deshmukh
+        </title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <div className={styles.inside_wrapper}>
         <IntroModule/>
         {/*<Loader show={true} />*/}

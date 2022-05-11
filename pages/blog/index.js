@@ -5,6 +5,7 @@ import BlogHeader from '../../components/BlogHeader'
 import SearchBlog from '../../components/SearchBlog'
 import AllPosts from '../../components/AllPosts'
 import getBlogs from '../../lib/getBlogs'
+import Head from 'next/head'
 
 export default function BlogIndex(props){
 
@@ -26,6 +27,11 @@ export default function BlogIndex(props){
     
     return(
         <main className='h-screen flex flex-col items-center sm:px-4 md:px-[2rem] dark:text-white'>
+            <Head>
+                <title>
+                    Blogs - PD
+                </title>
+            </Head>
            <div className={blogStyles.inside_wrapper}>
                <BlogHeader/>
                <SearchBlog searchedString={searchedString} setsearchedString={setsearchedString}  count={blogsArray.length} />
