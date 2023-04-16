@@ -12,7 +12,7 @@ export default function Navbar(){
                     <Link href="/"><a className={styles.nav_link}>Home</a></Link>
                     <Link href='/blog'><a className={styles.nav_link}> Blog</a></Link>
                     <Link href='/aboutme'><a className={styles.nav_link}> Me</a></Link>
-
+                    <Link href='/three'><a className={styles.nav_link}> Three</a></Link>
             </div>
             <DarkModeSwitch/>
         </nav>
